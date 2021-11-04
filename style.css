@@ -73,3 +73,10 @@ p {
     margin-left: 15%;
     transform: skewX(38deg) skewY(20deg);
 }
+
+@media screen and (max-width: 320px) {
+    div {
+        width: 3rem;
+        height: 3rem;
+    }
+}
