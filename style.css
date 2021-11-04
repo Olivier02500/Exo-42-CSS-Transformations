@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    margin: 5% 5%;
+    height: 30rem;
+    width: 30rem;
+    border: 2px dashed black;
+    background-color: greenyellow;
+    transform-origin: center center;
+    transform: rotate(-35deg);
+}
+
+p {
+    font-size: 1.6rem;
+    transform: rotate(90deg);
+}
+
+.translation {
+    margin-left: 5%;
+    height: 20rem;
+    width: 20rem;
+    border: 2px dotted red;
+}
+
+.translation div {
+    height: 20rem;
+    width: 20rem;
+    border: 2px dotted yellow;
+    background-color: lightgrey;
+    transform: translate(35px, 35px);
+}
+
+.echele {
+    z-index: 2;
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 30rem;
+    width: 30rem;
+    background-color: lightblue;
+    border: 2px solid green;
+    transform: scale(1.50);
+}
+
+.echele2 {
+    position: absolute;
+    z-index: 1;
+    top: 76%;
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 30rem;
+    width: 30rem;
+    background-color: lightblue;
+    border: 2px solid green;
+}
+
+.oblique {
+    height: 30rem;
+    width: 30rem;
+    border: 2px dashed darkorange;
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+.oblique div {
+    height: 30rem;
+    width: 30rem;
+    background-color: pink;
+    border: 2px dashed darkorange;
+    margin-top: 10%;
+    margin-left: 15%;
+    transform: skewX(38deg) skewY(20deg);
+}
